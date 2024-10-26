@@ -1,0 +1,98 @@
+/* Apply the cute font to everything */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Wrapper styles */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #fff7f0;
+}
+
+/* Header styling */
+header {
+  background-color: #ffe4e1;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #ff66b2;
+  font-weight: 600;
+}
+
+/* Main content styling */
+main {
+  flex: 1;
+  background-color: rgb(255, 248, 242);
+  text-align: center;
+  padding: 2rem;
+}
+
+main h1 {
+  font-size: 2rem;
+  color: #ff66b2;
+  margin-bottom: 1.5rem;
+}
+
+main h2 {
+  font-size: 1.75rem;
+  color: #ff8c94;
+  margin-bottom: 2rem;
+}
+
+/* Image styling */
+img {
+  max-height: 250px;
+  border-radius: 10px;
+ 
+}
+
+/* Button styling */
+.button {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  padding: 15px 30px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.button.yes {
+  background: linear-gradient(45deg, #6ee7b7, #34d399);
+}
+
+.button.yes:hover {
+  background: linear-gradient(45deg, #34d399, #6ee7b7);
+  transform: scale(1.1);
+}
+
+.button.no {
+  background: linear-gradient(45deg, #fb7185, #f43f5e);
+}
+
+.button.no:hover {
+  background: linear-gradient(45deg, #f43f5e, #fb7185);
+  transform: scale(1.1);
+}
+
+/* Footer styling */
+footer {
+  background-color: #ffe4e1;
+  color: black;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
